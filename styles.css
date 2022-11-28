@@ -1,0 +1,24 @@
+
+body {
+
+    margin: 0;
+
+}
+
+.core {
+
+    display: grid;
+    grid-template-columns: 1fr;
+    top: auto;
+    transform: (-50% , -50%);
+    
+}
+
+.links {
+
+    width: 30vw;
+    height: 10vh;
+    background-color: aqua;
+    
+
+}
