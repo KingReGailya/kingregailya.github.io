@@ -1,24 +1,69 @@
-
 body {
-
-    margin: 0;
-
+    background-image: url(back.png);
+  
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 2px;
+  }
+  
+  .profile-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid red;
+    margin-top: 10%;
+    height: auto;
+    max-width: 100px;
+    background-color: white;
+    border-radius: 50%;
 }
+  
+  .profile-name {
+  
+    color: black;
+    opacity: .7 ;
+    text-align: center;
+    padding: 30px;
+    font-size: 28px;
+ 
+  }
+  
+  .links {
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid red ;
+    border-width: 2px;
+    padding: 20px;
+    background-color: white;
+    opacity: .5;
+    width: 290px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+    border-radius: 40px;
+  
+    font-size: 15px;
+  }
+  
+  a {
+    text-decoration: none;
+  
+    color: black;
+    transition: color 1s;
+  }
+  
+  a:hover {
+    color: black;
+    background-color: white;
+  }
 
-.core {
+.header {
 
-    display: grid;
-    grid-template-columns: 1fr;
-    top: auto;
-    transform: (-50% , -50%);
-    
-}
+    font-size: 30px;
+    position: relative;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
-.links {
-
-    width: 30vw;
-    height: 10vh;
-    background-color: aqua;
-    
 
 }
